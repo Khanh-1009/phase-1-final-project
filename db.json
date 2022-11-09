@@ -4,36 +4,36 @@
       "id": 1,
       "title": "Nature",
       "imageURL": "https://globalgrasshopper.com/wp-content/uploads/2011/11/Top-10-of-the-most-beautiful-places-to-visit-in-Vietnam.jpg",
-      "description": "If you are the person that loves nature and beautiful landscapes, Vietnam will not disappoint you. It is a country of diversity with tropical forest, amazing beaches, nice mountains and natural wonders, which have been recognized by UNESCO. Son Doong Cave at Phong Nha-Ke Bang National Park, and Ha Long Bay are two of the most popular acttractions that are recognized by UNESCO as World Heritages Sites."
+      "description": "If you are the person that loves nature and beautiful landscapes, Vietnam will not disappoint you. It is a country of diversity with tropical forest, amazing beaches, nice mountains and natural wonders, which have been recognized by UNESCO. Son Doong Cave at Phong Nha-Ke Bang National Park, and Ha Long Bay are two of the most popular acttractions that are recognized by UNESCO as World Heritages Sites.",
+      "favorites": 0
     },
     {
       "id": 2,
       "title": "Culture & Tradition",
       "imageURL": "https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2018/04/sctp0151-aodai-fashion-show-hue-festival-hue-vietnam-pham-10.jpg",
-      "description": "Vietnam is one of the oldest countries in Asia with over 4000 years of civilization. Our culture was heavily influenced by Chinese Culture, however we were also affected by Indian and Champa. Vietnamese have a strong sense of pride in their culture and traditions. You can easily find traditional festivals, musical performance, or temple tours during your visit"
+      "description": "Vietnam is one of the oldest countries in Asia with over 4000 years of civilization. Our culture was heavily influenced by Chinese Culture, however we were also affected by Indian and Champa. Vietnamese have a strong sense of pride in their culture and traditions. You can easily find traditional festivals, musical performance, or temple tours during your visit",
+      "favorites": 0
     },
     {
       "id": 3,
       "title": "A Modern Vietnam",
       "imageURL": "https://bamboovillageresortvn.com/wp-content/uploads/2017/10/002-ho-chi-minh-city.jpg",
-      "description": "Although tradition is still an important part, you will find another verson of this country that is bursting with energy, a Modern Vietnam. Enjoying nighlife is one of the best things to do in big cities. Having a drink on rooftop bars, hanging around walking streets, and enjoying a delicious dinner on the street with Vietnamese authentic street food are amazing experiences that you don't want to miss."
+      "description": "Although tradition is still an important part, you will find another verson of this country that is bursting with energy, a Modern Vietnam. Enjoying nighlife is one of the best things to do in big cities. Having a drink on rooftop bars, hanging around walking streets, and enjoying a delicious dinner on the street with Vietnamese authentic street food are amazing experiences that you don't want to miss.",
+      "favorites": 0
     },
     {
       "id": 4,
       "title": "Leisure & Luxury Travel",
       "imageURL": "http://www.destination360.com/asia/vietnam/images/s/beaches.jpg",
-      "description": "Vietnam is busy and crowded, however there are places for a perfect family getaway. The nation is located in tropical region in South East Asia, which is why there are many beautiful beaches from the North to the South. Planning a trip for your family or the significant one at nice resorts in central coast is a great option if you are a leisure traveler."
+      "description": "Vietnam is busy and crowded, however there are places for a perfect family getaway. The nation is located in tropical region in South East Asia, which is why there are many beautiful beaches from the North to the South. Planning a trip for your family or the significant one at nice resorts in central coast is a great option if you are a leisure traveler.",
+      "favorites": 0
     },
     {
       "id": 5,
       "title": "Food Tours & Culinary Experiences",
       "imageURL": "https://www.lasinfoniadelreyhotel.com/img/upload/tet_food.gif",
-      "description": "Traveling around Vietnam, you will find how diverse Vietnamese cuisine is. The country is crossroads of cultures such as France, India, and Khmer, so almost every city has the must-try dishes with the amazing variety of ingredients . When the Northern Vietnamese have hot noodle soups and grills because of the cold weather such as Phở, Bún Chả Hà Nội, or Nem, the Southern people loves fresh herbs and cold dishes like Bánh Xèo, Bánh Mì, Gỏi Cuốn, or Thịt Quay. Your trip will not be completed without exploring our increadible cuisine."
-    },
-    {
-      "title": "Third Article",
-      "content": "Another example!",
-      "id": 6
+      "description": "Traveling around Vietnam, you will find how diverse Vietnamese cuisine is. The country is crossroads of cultures such as France, India, and Khmer, so almost every city has the must-try dishes with the amazing variety of ingredients . When the Northern Vietnamese have hot noodle soups and grills because of the cold weather such as Phở, Bún Chả Hà Nội, or Nem, the Southern people loves fresh herbs and cold dishes like Bánh Xèo, Bánh Mì, Gỏi Cuốn, or Thịt Quay. Your trip will not be completed without exploring our increadible cuisine.",
+      "favorites": 0
     }
   ]
 }
