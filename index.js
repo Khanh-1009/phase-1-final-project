@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        clickAction();*/
+        clickAction()*/
         
 
         //Another click event, to see how many people have like the topics
