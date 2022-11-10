@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         /*function clickAction(){
             console.log(userAction)
             for (const click of userAction){
-                click.addEventListener('click',userFavorite)
+                click.addEventListener("click",userFavorite)
             }
         }
 
