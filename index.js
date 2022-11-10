@@ -39,19 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         /*const blankHeart = '♡'
         const fullHeart = '♥'*/
         
-        function userFavorite(e){
-            let heart = e.target;
-            //debugger
-            if (heart.textContent === '♡'){
-                console.log(e.target)
-                heart.textContent = '♥';
-                heart.classList.add('red-heart');
-            } 
-            else if (heart.textContent === '♥'){
-                heart.textContent = '♡';
-                heart.classList.remove('red-heart');
-            }
-        }
+        
         //click Event
         /*function clickAction(){
             console.log(userAction)
@@ -88,5 +76,17 @@ document.addEventListener('DOMContentLoaded', () => {
     
     getAttractions()
 
-    
+    function userFavorite(e){
+        let heart = e.target;
+        //debugger
+        if (heart.textContent === '♡'){
+            console.log(e.target)
+            heart.textContent = '♥';
+            heart.classList.add('red-heart');
+        } 
+        else if (heart.textContent === '♥'){
+            heart.textContent = '♡';
+            heart.classList.remove('red-heart');
+        }
+    }
 })
