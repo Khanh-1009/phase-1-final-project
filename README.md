@@ -20,3 +20,6 @@ In order to have good knowledge to create this project, I truly appreciate the w
 https://globalholidaylocations.com/the-importance-of-air-travel/
 
 ## Instructions
+There are 5 files in this projects, and we will focus mainly on `index.js` and `db.json`, which contain most of the learning goals.
+
+*

@@ -47,7 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 click.addEventListener("click",userFavorite)
             }
         }
-
         clickAction()*/
         
 
