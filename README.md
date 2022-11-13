@@ -27,4 +27,9 @@ There are 5 files in this projects, and we will focus mainly on `index.js` and `
 * Starting with `index.js` by creating a <ul> tag with the className "card". I also created <img><h2><p><button> tags for all 4 attributes.
 * Made GET request for the 5 objects through the function getAttractions().
 * Created a click event through userFavorite() function. The heart will change from empty to full red heart and change back originally whenever users do the "click" action.
-* I also made submit event as well. Whenever user submit there
+* I also made submit event as well. Whenever user submit their email, an alert message will be triggered.
+* The third event listener is DOMContentLoaded event.
+
+## Conclusion
+
+To be honest, I feel amazing after I completed this project. There are so many materials that I have learned, and of course, it's been challenging. This project will only be the good start for me because I will keep studying and practicing to be come a real-deal developer!

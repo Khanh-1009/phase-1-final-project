@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         clickAction()*/
         
-
         //Another click event, to see how many people have like the topics
         card.querySelector('.like').addEventListener('click', () => {
             place.favorites++
