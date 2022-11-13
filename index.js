@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
         /*const blankHeart = '♡'
         const fullHeart = '♥'*/
         
-        
         //click Event
         /*function clickAction(){
             console.log(userAction)

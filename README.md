@@ -22,4 +22,9 @@ https://globalholidaylocations.com/the-importance-of-air-travel/
 ## Instructions
 There are 5 files in this projects, and we will focus mainly on `index.js` and `db.json`, which contain most of the learning goals.
 
-*
+* I started this project by creating a single page of `index.html`, and created `index.js` and `style.css` as well.
+* Created a file `db.json`, and posted a collection of 5 objects with 4 attributes and named it "attractions".
+* Starting with `index.js` by creating a <ul> tag with the className "card". I also created <img><h2><p><button> tags for all 4 attributes.
+* Made GET request for the 5 objects through the function getAttractions().
+* Created a click event through userFavorite() function. The heart will change from empty to full red heart and change back originally whenever users do the "click" action.
+* I also made submit event as well. Whenever user submit there
