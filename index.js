@@ -32,6 +32,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
         `
+
+        attractionList.appendChild(card)
         //After created 2 buttons for each card, I created heart that can change the colors using click Event
         const button = card.querySelector('.like')
         button.addEventListener('click', userFavorite)
@@ -43,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let heart = e.target;
             //debugger
             if (heart.textContent === '♡'){
-                console.log(e.target)
+                //console.log(e.target)
                 heart.textContent = '♥';
                 heart.classList.add('red-heart');
                 place.favorites++
@@ -62,8 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
         card.querySelector('#request').addEventListener('click', () =>{
             alert('Thanks for your interest! Please submit your email at the bottom of our website to receive more information about the topic that you love!')
         })
-
-        attractionList.appendChild(card)
 
     }
     //Make a GET request to db.json
