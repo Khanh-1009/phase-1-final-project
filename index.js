@@ -35,9 +35,26 @@ document.addEventListener('DOMContentLoaded', () => {
         //After created 2 buttons for each card, I created heart that can change the colors using click Event
         const button = card.querySelector('.like')
         button.addEventListener('click', userFavorite)
-        /*const userAction = document.getElementsByClassName('heartEmpty')*/
-        /*const blankHeart = '♡'
-        const fullHeart = '♥'*/
+        //The number of users will increase and decrease when they hit the heart icon
+        const numberFavorites = card.querySelector('.favorite')
+    
+        function userFavorite(e){
+            let heart = e.target;
+            //debugger
+            if (heart.textContent === '♡'){
+                console.log(e.target)
+                heart.textContent = '♥';
+                heart.classList.add('red-heart');
+                place.favorites++
+                numberFavorites.textContent = place.favorites
+            } 
+            else if (heart.textContent === '♥'){
+                heart.textContent = '♡';
+                heart.classList.remove('red-heart');
+                place.favorites--
+                numberFavorites.textContent = place.favorites
+            }
+        }
         
         //click Event
         /*function clickAction(){
@@ -47,13 +64,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
         clickAction()*/
+    
         
-        //Another click event, to see how many people have like the topics
-        card.querySelector('.like').addEventListener('click', () => {
-            place.favorites++
-            
-            card.querySelector('span').textContent = place.favorites
-        })
 
         //Another click event if user want to get more information => send them alert
         card.querySelector('#request').addEventListener('click', () =>{
@@ -73,17 +85,5 @@ document.addEventListener('DOMContentLoaded', () => {
     
     getAttractions()
 
-    function userFavorite(e){
-        let heart = e.target;
-        //debugger
-        if (heart.textContent === '♡'){
-            console.log(e.target)
-            heart.textContent = '♥';
-            heart.classList.add('red-heart');
-        } 
-        else if (heart.textContent === '♥'){
-            heart.textContent = '♡';
-            heart.classList.remove('red-heart');
-        }
-    }
+    
 })

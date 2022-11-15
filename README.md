@@ -14,10 +14,17 @@ Whenever I log onto a website, I always wonder how people can manage and interac
 
 In order to have good knowledge to create this project, I truly appreciate the website of The Official Tourism of Vietnam, which provides me great information, beautiful photos, and ideas. Besides, there are several nice photos that I have in this project, which are from other websites below.
 
+![Screenshot Final](https://globalgrasshopper.com/wp-content/uploads/2011/11/Top-10-of-the-most-beautiful-places-to-visit-in-Vietnam.jpg)
 
+![Screenshot Final](https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2018/04/sctp0151-aodai-fashion-show-hue-festival-hue-vietnam-pham-10.jpg)
 
+![Screenshot Final](https://bamboovillageresortvn.com/wp-content/uploads/2017/10/002-ho-chi-minh-city.jpg)
 
-https://globalholidaylocations.com/the-importance-of-air-travel/
+![Screenshot Final](http://www.destination360.com/asia/vietnam/images/s/beaches.jpg)
+
+![Screenshot Final](https://www.lasinfoniadelreyhotel.com/img/upload/tet_food.gif)
+
+![Link](https://vietnam.travel/node/1336)
 
 ## Instructions
 There are 5 files in this projects, and we will focus mainly on `index.js` and `db.json`, which contain most of the learning goals.
