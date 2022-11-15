@@ -56,8 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 numberFavorites.textContent = place.favorites
             }
         }
-        
-      
 
         //Another click event if user want to get more information => send them alert
         card.querySelector('#request').addEventListener('click', () =>{
