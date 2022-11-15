@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
+        
         //Another click event if user want to get more information => send them alert
         card.querySelector('#request').addEventListener('click', () =>{
             alert('Thanks for your interest! Please submit your email at the bottom of our website to receive more information about the topic that you love!')
