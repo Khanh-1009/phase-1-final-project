@@ -27,6 +27,7 @@ In order to have good knowledge to create this project, I truly appreciate the w
 ![Link](https://vietnam.travel/node/1336)
 
 ## Instructions
+
 There are 5 files in this projects, and we will focus mainly on `index.js` and `db.json`, which contain most of the learning goals.
 
 * I started this project by creating a single page of `index.html`, and created `index.js` and `style.css` as well.

@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const button = card.querySelector('.like')
         button.addEventListener('click', userFavorite)
         //The number of users will increase and decrease when they hit the heart icon
-        
+        const numberOfFavorites = card.querySelector('.favorite')
         
         //function that includes heart icon and the number of users who add or remove it out of their favorites
         
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
 
     }
-    const numberOfFavorites = card.querySelector('.favorite')
+    
 
     function userFavorite(e){
         let heart = e.target;
