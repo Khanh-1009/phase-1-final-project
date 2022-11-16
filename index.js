@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //Adding 5 elements from db.json to html (4 attributes)
     const attractionList = document.querySelector('#attraction-list')
-    function attractions(place){
+    function addAttractionCard(place){
         let card = document.createElement('ul')
         card.className = "card"
         card.innerHTML = `
@@ -38,27 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const button = card.querySelector('.like')
         button.addEventListener('click', userFavorite)
         //The number of users will increase and decrease when they hit the heart icon
-        const numberFavorites = card.querySelector('.favorite')
+        
         
         //function that includes heart icon and the number of users who add or remove it out of their favorites
-        function userFavorite(e){
-            let heart = e.target;
-            //debugger
-            if (heart.textContent === '♡'){
-                //console.log(e.target)
-                heart.textContent = '♥';
-                heart.classList.add('red-heart');
-                place.favorites++
-                numberFavorites.textContent = place.favorites
-            } 
-            else if (heart.textContent === '♥'){
-                heart.textContent = '♡';
-                heart.classList.remove('red-heart');
-                place.favorites--
-                numberFavorites.textContent = place.favorites
-            }
-        }
-
         
         //Another click event if user want to get more information => send them alert
         card.querySelector('#request').addEventListener('click', () =>{
@@ -66,11 +48,31 @@ document.addEventListener('DOMContentLoaded', () => {
         })
 
     }
+    const numberOfFavorites = card.querySelector('.favorite')
+
+    function userFavorite(e){
+        let heart = e.target;
+        //debugger
+        if (heart.textContent === '♡'){
+            //console.log(e.target)
+            heart.textContent = '♥';
+            heart.classList.add('red-heart');
+            place.favorites++
+            numberOfFavorites.textContent = place.favorites
+        } 
+        else if (heart.textContent === '♥'){
+            heart.textContent = '♡';
+            heart.classList.remove('red-heart');
+            place.favorites--
+            numberOfFavorites.textContent = place.favorites
+        }
+    }
+
     //Make a GET request to db.json
     function getAttractions(){
         return fetch("http://localhost:3000/Attractions")
         .then(res => res.json())
-        .then(data => data.forEach(place => attractions(place)))
+        .then(data => data.forEach(place => addAttractionCard(place)))
         
     }
     
