@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
         `
-
         attractionList.appendChild(card)
         //After created 2 buttons for each card, I created heart that can change the colors using click Event
         const button = card.querySelector('.like')
