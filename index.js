@@ -41,7 +41,23 @@ document.addEventListener('DOMContentLoaded', () => {
         const numberOfFavorites = card.querySelector('.favorite')
         
         //function that includes heart icon and the number of users who add or remove it out of their favorites
-        
+        function userFavorite(e){
+            let heart = e.target;
+            //debugger
+            if (heart.textContent === '♡'){
+                //console.log(e.target)
+                heart.textContent = '♥';
+                heart.classList.add('red-heart');
+                place.favorites++
+                numberOfFavorites.textContent = place.favorites
+            } 
+            else if (heart.textContent === '♥'){
+                heart.textContent = '♡';
+                heart.classList.remove('red-heart');
+                place.favorites--
+                numberOfFavorites.textContent = place.favorites
+            }
+        }
         //Another click event if user want to get more information => send them alert
         card.querySelector('#request').addEventListener('click', () =>{
             alert('Thanks for your interest! Please submit your email at the bottom of our website to receive more information about the topic that you love!')
@@ -50,23 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
 
-    function userFavorite(e){
-        let heart = e.target;
-        //debugger
-        if (heart.textContent === '♡'){
-            //console.log(e.target)
-            heart.textContent = '♥';
-            heart.classList.add('red-heart');
-            place.favorites++
-            numberOfFavorites.textContent = place.favorites
-        } 
-        else if (heart.textContent === '♥'){
-            heart.textContent = '♡';
-            heart.classList.remove('red-heart');
-            place.favorites--
-            numberOfFavorites.textContent = place.favorites
-        }
-    }
+
 
     //Make a GET request to db.json
     function getAttractions(){

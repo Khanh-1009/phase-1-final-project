@@ -1,6 +1,7 @@
 # Phase-1 Final Project - The Official Tourism Website of Vietnam 
 
 ## Learning Goals
+
 * Create one page HTML that uses CSS and JavaScript to manipulate.
 * To identify and understand the three pillars of front-end web programming
 * Manipulate Document Object Model (DOM) by creating, adding, or removing elements
