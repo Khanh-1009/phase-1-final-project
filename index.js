@@ -70,8 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(res => res.json())
         .then(data => data.forEach(place => addAttractionCard(place)))
         
-    }
-    
+    }   
     getAttractions()
-
 })
