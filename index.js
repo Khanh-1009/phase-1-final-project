@@ -63,7 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Thanks for your interest! Please submit your email at the bottom of our website to receive more information about the topic that you love!')
         })
     }    
-
     //Make a GET request to db.json
     function getAttractions(){
         return fetch("http://localhost:3000/Attractions")
