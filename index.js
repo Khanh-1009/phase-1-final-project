@@ -68,7 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return fetch("http://localhost:3000/Attractions")
         .then(res => res.json())
         .then(data => data.forEach(place => addAttractionCard(place)))
-        
     }   
     
     getAttractions()
