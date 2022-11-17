@@ -42,3 +42,4 @@ There are 5 files in this projects, and we will focus mainly on `index.js` and `
 ## Conclusion
 
 To be honest, I feel amazing after I completed this project. There are so many materials that I have learned, and of course, it's been challenging. This project will only be the good start for me because I will keep studying and practicing to be come a real-deal developer!
+
