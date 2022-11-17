@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault()
         form.reset()
     })
+    
     //Adding 5 elements from db.json to html (4 attributes)
     const attractionList = document.querySelector('#attraction-list')
     function addAttractionCard(place){
